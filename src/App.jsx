@@ -6,7 +6,7 @@ import ContactList from './components/ContactList/ContactList';
 function App() {
   return (
     <div className="container phonebook-inner">
-      <h1>Phonebook</h1>
+      <h1>Phonebook with Redux</h1>
       <ContactForm />
       <SearchBox />
       <ContactList />

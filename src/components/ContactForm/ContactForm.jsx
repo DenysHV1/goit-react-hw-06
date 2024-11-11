@@ -39,18 +39,16 @@ console.log(addContact());
 
         return (
           <Form className={css.form}>
-            <label htmlFor={nameId}>Name</label>
-            <Field className={css.field} type="text" name="name" id={nameId} />
+            <Field className={css.field} type="text" name="name" id={nameId} placeholder='Your name'/>
             {errors.name && touched.name ? (
               <div className={css.errors}>{errors.name}</div>
             ) : null}
-
-            <label htmlFor={numberId}>Number</label>
             <Field
               className={css.field}
               type="number"
               name="number"
               id={numberId}
+              placeholder='Your number'
             />
             {errors.number && touched.number ? (
               <div className={css.errors}>{errors.number}</div>

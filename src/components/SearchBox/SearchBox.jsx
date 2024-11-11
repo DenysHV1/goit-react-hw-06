@@ -8,13 +8,13 @@ const SearchBox = () => {
 
   return (
     <div className={css.searchContainer}>
-      <p className={css.searchText}>Find contacts by name</p>
       <input
         className={css.searchInput}
         type="text"
         name="searchInput"
         value={selectFilter}
         onChange={e => dispatch(changeFilter(e.target.value))}
+        placeholder='Find contacts by name'
       ></input>
     </div>
   );

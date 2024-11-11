@@ -1,16 +1,16 @@
 .contactList {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 30px;
-  margin: 20px auto;
-  padding: 20px;
-  background: linear-gradient(90deg, #55a246, #70ca94, #a3f0d8);
+list-style: none;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin: 0;
+padding: 0;
+margin-bottom: 70px;
 }
 
 .emptyList {
-  background: linear-gradient(90deg, #55a246, #70ca94, #a3f0d8);
-  padding: 20px;
+color: rgb(255, 251, 0);
+font-size: 20px;
+text-decoration: underline;
 }

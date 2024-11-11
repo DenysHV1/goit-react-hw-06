@@ -10,16 +10,16 @@ export default function Contact({ data: { id, name, number } }) {
     <>
       <div className={css.contactItem}>
         <p>
-          <FaUser /> {name}
+          <FaUser style={{color: 'white'}}/> {name}
         </p>
         <p>
-          <FaPhoneAlt /> {number}
+          <FaPhoneAlt style={{color: 'white'}}/> {number}
         </p>
         <button
           className={css.contactButton}
           onClick={() => dispatch(deleteContact(id))}
         >
-          Delete
+          ×
         </button>
       </div>
     </>

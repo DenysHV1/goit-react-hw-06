@@ -1,9 +1,18 @@
-h1{
-	margin-left: 20px;
+h1 {
+  margin-left: 20px;
 }
 
-.container{
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 0 30px;
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+body {
+  background-color: rgb(79, 80, 87);
+}
+
+h1 {
+	text-align: center;
+  color: white;
 }
